@@ -1,2 +1,2 @@
-# OwO Blood
-Makes the blood orbs that chase you at Zebak and Maiden say cutesy things as they chase the player >:3
+# T-girl ToA
+Add trans grill memes above mobs in the ToA raid >:3 (I'm sorry)
