@@ -4,10 +4,10 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("owoblood")
+@ConfigGroup("tgirltoa")
 public interface TgirlToaConfig extends Config
 {
-
+	/**
 	@ConfigItem(
 		keyName = "messages",
 		name = "Blood Orb Messages",
@@ -17,5 +17,6 @@ public interface TgirlToaConfig extends Config
 	{
 		return "Hello";
 	}
+	*/
 
 }
