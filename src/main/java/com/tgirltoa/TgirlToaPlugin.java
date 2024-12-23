@@ -70,7 +70,7 @@ public class TgirlToaPlugin extends Plugin
 
 		if (3029 <= npc.getId() && npc.getId() <= 3036){
 			//Then the NPC is a goblin in lumby. Using for testing, will change id to match blood orbs once things are working
-			i = (int) (Math.random() * ((GOBLIN_MESSAGES.length-1)+1));
+			i = (int) (Math.random() * GOBLIN_MESSAGES.length);
 			npc.setOverheadText(GOBLIN_MESSAGES[i]);
 			goblins.add(npc);
 		}
