@@ -4,16 +4,18 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("owoblood")
 public interface OwoBloodConfig extends Config
 {
+
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		keyName = "messages",
+		name = "Blood Orb Messages",
+		description = "A list of messages that the orbs can say."
 	)
-	default String greeting()
+	default String bloodMessages()
 	{
 		return "Hello";
 	}
+
 }
