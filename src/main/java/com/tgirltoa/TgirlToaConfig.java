@@ -1,11 +1,11 @@
-package com.owoblood;
+package com.tgirltoa;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("owoblood")
-public interface OwoBloodConfig extends Config
+public interface TgirlToaConfig extends Config
 {
 
 	@ConfigItem(

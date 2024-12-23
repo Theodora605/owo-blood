@@ -1,13 +1,13 @@
-package com.owoblood;
+package com.tgirltoa;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class OwoBloodTest
+public class TgirlToaTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(OwoBloodPlugin.class);
+		ExternalPluginManager.loadBuiltin(TgirlToaPlugin.class);
 		RuneLite.main(args);
 	}
 }

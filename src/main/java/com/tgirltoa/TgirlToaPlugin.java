@@ -1,4 +1,4 @@
-package com.owoblood;
+package com.tgirltoa;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
@@ -6,12 +6,8 @@ import javax.inject.Inject;
 import lombok.Getter;
 import lombok.AccessLevel;
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
-import net.runelite.api.GameState;
 import net.runelite.api.NPC;
-import net.runelite.api.NpcID;
-import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.NpcDespawned;
 import net.runelite.api.events.NpcSpawned;
@@ -27,7 +23,7 @@ import java.util.Set;
 @PluginDescriptor(
 	name = "OwO Bloods"
 )
-public class OwoBloodPlugin extends Plugin
+public class TgirlToaPlugin extends Plugin
 {
 	private final int MESSAGE_REFRESH_RATE = 8; // TODO: Make configurable
 	private final int MESSAGE_DISPLAY_DURATION = 6;
@@ -43,7 +39,7 @@ public class OwoBloodPlugin extends Plugin
 	private Client client;
 
 	@Inject
-	private OwoBloodConfig config;
+	private TgirlToaConfig config;
 
 	@Override
 	protected void startUp() throws Exception
@@ -105,8 +101,8 @@ public class OwoBloodPlugin extends Plugin
 
 
 	@Provides
-	OwoBloodConfig provideConfig(ConfigManager configManager)
+	TgirlToaConfig provideConfig(ConfigManager configManager)
 	{
-		return configManager.getConfig(OwoBloodConfig.class);
+		return configManager.getConfig(TgirlToaConfig.class);
 	}
 }
